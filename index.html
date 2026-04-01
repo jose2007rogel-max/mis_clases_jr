@@ -1,267 +1,210 @@
 <!DOCTYPE html>
-<!--COMENTARIO-->
-<!--estructura basica de html-->
-<html lang="esp">
+<html lang="es">
 
-<head> 
+<head>
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Permite utilizar todo tipo de caracteres-->
-  <meta charset="UTF-8"> 
   <title>Primera Pagina Web</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+
 </head>
 
-<body style="color:black">
+<body>
 
-  <!--caveceras h titulo-->
-
-  <h1>Hola mundo primera pagina wéb</h1>
+  <h1> mundo primera pagina web</h1>
   <h2>subtitulo</h2>
   <h3>subtitulo del subtitulo</h3>
   <h4>titulo</h4>
   <h5>titulo</h5>
   <h6>titulo</h6>
-  <!--etiqueta br salto de linea -->
+
   <br>
-  <!--la etiqueta p de parrafo crea un parrafo dentro del html -->
+
   <p>esto es un parrafo</p>
-  <p>lorem*3</p>
-  <!--creamos un contenedor section-->
-  <section style="color:black">
-    <h2 style="color:brown; font-size: 50px;text-align: center">HTML</h2>
-    <div style="width: 50%; border: solid 1px">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+  <section>
+    <h2>HTML</h2>
+    <div>
       <p>
         HTML es un lenguaje de marcado que se utiliza para crear paginas web.
         Es el lenguaje de marcado estándar para la creación de documentos en la World Wide Web.
         HTML se compone de una serie de elementos que se utiliza para estructuras y
-        presentar el contenido de una pagina web. Estos elemtos incluyen encabezados,
-        párrafos, enlaces, imágenes, tablas y muchos otros. HTML es un lenguaje muy flexible
-        y se puede utilizar para crear una amplia variedad de sitios web, desde simples paginas estaticas hasta aplicaciones web complejas
+        presentar el contenido de una pagina web. Estos elementos incluyen encabezados,
+        párrafos, enlaces, imágenes, tablas y muchos otros.
       </p>
-    </divi>
+    </div>
   </section>
-  <!--creamos un contenedor para rutas
-  las rutas son contenedores de contenido pajina web, que me permite rediregir orots 
-  sitios web o a otros partes de mi paginas web , 
-  existen dos tipos de reutas las absolutas y las relativas 
-  rutas absolutas: direccion complta url 
-  rutas relativas :direcion de un solo componente-->
+
   <div>
-    <h3>ir a un recurso de youtube </h3>
-    <a href="https://youtu.be/J0nmKYzu2HA?si=67L1Iqd7N-AI-WGl" target="_blank"> Ir al video </a>
+    <h3>ir a un recurso de youtube</h3>
+    <a href="https://youtu.be/J0nmKYzu2HA" target="_blank">Ir al video</a>
     <br>
     <h3>Ir a contacto</h3>
-    <a href="vistas/contacto.html"> Ir a contactame</a>
+    <a href="vistas/contacto.html">Ir a contactame</a>
   </div>
-  
-  <p>Nombre: Giovanny Cofre,Oscar Nuñez, Jose Rogel</p>
-  <br>
+
+  <p>Nombre: Giovanny Cofre, Oscar Nuñez, Jose Rogel</p>
   <p>Edad: N/A</p>
+
   <h1>------------------------------clase 5------------------------------</h1>
 
-  <!--img esta etiqueta permita insertar imagens dentro del documento html ,esta etiqueta tiene algunos paramedtyros y el mas importante es el parametro srs,esta etiwueta es una etiqueta simple 
-  -->
   <div>
     <h2>imágen html</h2>
-    <img src="C:\xampp\htdocs\jrweb\img\flor.png" alt="flor" width="500px" height="200px">
-    <!--este es para la anchura width,height es la altura-->
+    <img src="img/flor.png" alt="flor" width="500" height="200">
   </div>
-  <!--la etiqueta table esta etiquta permite general tablas estaticas confirmadas por filas y columnas -->
-  <div>
-    <h2>tablaas de pociones</h2>
-    <table border="1px">
-      <tr>
-        <th>posicion</th>
-        <th>equipos</th>
-        <th>partidos jugados</th>
-        <th>puntos</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>independiente</td>
-        <td>4</td>
-        <td>10 pts</td>
 
-      </tr>
-      <th>2</th>
-      <td>emelec</td>
-      <td>3</td>
-      <td>11 pts</td>
-      <tr>
-        <th>3</th>
-        <td>aucas</td>
-        <td>4</td>
-        <td>9pst</td>
+  <div>
+    <h2>tablas de posiciones</h2>
+    <table border="1">
+      <thead>
         <tr>
-          <th>4</th>
+          <th>posicion</th>
+          <th>equipos</th>
+          <th>partidos jugados</th>
+          <th>puntos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>independiente</td>
+          <td>4</td>
+          <td>10 pts</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>emelec</td>
+          <td>3</td>
+          <td>11 pts</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>aucas</td>
+          <td>4</td>
+          <td>9pst</td>
+        </tr>
+        <tr>
+          <td>4</td>
           <td>barcelona</td>
           <td>3</td>
           <td>11pst</td>
-
         </tr>
-        <th>5</th>
-        <td>delfin</td>
-        <td>5</td>
-        <td>12pst</td>
-
+        <tr>
+          <td>5</td>
+          <td>delfin</td>
+          <td>5</td>
+          <td>12pst</td>
         </tr>
-        <th>2</th>
-        <td>lol</td>
-        <td>5</td>
-        <td>12pst</td>
-
-        </tr>
-        <th>5</th>
-        <td>cuenca</td>
-        <td>5</td>
-        <td>12pst</td>
-
-        </tr>
-        <td colspan="101">5</td>
-        <td>bolivia</td>
-        <td>5</td>
-        <td>12pst</td>
-
-        </tr>
-        <td rowspan="2">5</td>
-        <!--combina filas-->
-        <td >los supermans</td>
-        <td>5</td>
-        <td>12pst</td>
-
-        </tr>
-        <td >5</td>
-        <td>liga2</td>
-        <td>5</td>
-        <td>12pst</td>
         <tr>
           <td colspan="4">Puntos totales 101</td>
-          <!--combina columnas-->
-
         </tr>
+      </tbody>
+    </table>
+  </div>
 
-
-
+  <h2>EJERCICIO 2</h2>
+  <div>
+    <table border="1">
+      <tr>
+        <td></td>
+        <th rowspan="2">Género</th>
+        <th colspan="2">Media</th>
+      </tr>
+      <tr>
+        <td></td>
+        <th>altura</th>
+        <th>peso</th>
+      </tr>
+      <tr>
+        <td rowspan="2">sexo</td>
+        <td>hombres</td>
+        <td>1.9</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>mujeres</td>
+        <td>1.7</td>
+        <td>60</td>
       </tr>
     </table>
-  
   </div>
-  <H2>EJERCICIO2</H2>
+
   <div>
-  <table border="3px">
-    <tr>
-       <th>    </th>
-        <th rowspan="2">    </th>
-        <th colspan="2"> Media   </th>
-    </tr>
-    <tr>
-      <td></td>
-
-      <td>altura</td>
-      <td>peso</td>
-
-    </tr>
-    <tr>
-      <td rowspan="2">sexo</td>
-      <td>hombres</td>
-      <td>1.9</td>
-      <td>85</td>
-    </tr>
-    <tr>
-      
-      <td>mujeres</td>
-      <td>1.7</td>
-      <td>60</td>
-    </tr>
-  </table>
-
-  </div>
-  <div>
-  <table border="3px">
-    <tr>
-      <th></th>
-    </tr>
-
-
-  </table>
-  </div>
-  <!--etiquetas de listas me permite listas intems de forma ordenado o desordenada 
-  <ul></ul> desordenadas y <ol></ol> lista ordenada-->
-  <divi>
     <h2>lista del mercado</h2>
-    <ul style="list-style-type:square ;">
-      <li>frutas</li> 
-      <ul>
-        <li>manzana</li>
-
-      </ul>
+    <ul>
+      <li>frutas
+        <ul>
+          <li>manzana</li>
+        </ul>
+      </li>
       <li>verduras</li>
       <li>lacteos</li>
-      <li>carbicos</li>
+      <li>carnicos</li>
     </ul>
-    <h2>listas ordenadas </h2>
-    <ol type="roman">
+
+    <h2>listas ordenadas</h2>
+    <ol type="I">
       <li>c</li>
       <li>c++</li>
       <li>java</li>
       <li>c#</li>
       <li>python</li>
-
     </ol>
-
   </div>
-  <!--formularios la etiqueta form me permite agrupar distintas etiquetas 
-  como etiqutas label,etiqueta input,selection,radio button,button entre otras -->
-  <form action="">
-<div>
+
   <h2>formularios de datos</h2>
-  <form action="">
+  <form action="#">
     <div>
-    <lable for="ingrese su nombre"> ingrese el nombre </lable>
+      <label for="nombre">ingrese el nombre</label>
       <input type="text" id="nombre" name="nombre">
-</div>
-<div>
-  <label for="edad">ingresa la edad del estudienate</label>
-<input type="number" id="edad" name="edad">
-</div>
-<!--etiqueta de tipo select-->
-<div>
-  <label for="">seleccione su lengije de programacion favorito</label>
-  <select name="lenguaje" id="lenguaje">
-    < option value="java">java</option>
-    < option value="c++">java</option>
-    < option value="">java</option>
-  </select>
-  
+    </div>
 
-</div>
-<div>
-  <label for="">genero</label>
-  <select name="lenguaje" id="lenguaje">
-    < option value="masculino">masculino</option>
-    < option value="femenino">femenino</option>
-    < option value="otors">otors</option>
-  </select>
-</div>
-<div>
-  <div>
-    <label for="">edad</label>
-     <input type ="radio" name="menor" id="menor" value="menor de edad"></label>
-       <label for="">17-20</label>
-       <br>
-       <input type="radio " name="mayor" id="mayor " value="mayor de edad"></imput>
-       <lable for="">17-65</lable> 
-      </div>
-      <div>
-        <label for="">edad</label>
-     <input type ="checkbox" name="deportivo" id="deportivo" value="deportivo"></label>
-       <label for="">Deportivo</label>
-       <br>
-       <input type="checkbox" name="seda" id="sedan" value="sedan"></imput>
-       <lable for="">17-65</lable> 
-      </div>
-    <input type="submit" value="Enviar"
-</div>
+    <div>
+      <label for="edad">ingresa la edad del estudiante</label>
+      <input type="number" id="edad" name="edad">
+    </div>
+
+    <div>
+      <label for="lenguaje">seleccione su lenguaje de programacion favorito</label>
+      <select name="lenguaje" id="lenguaje">
+        <option value="java">Java</option>
+        <option value="cpp">C++</option>
+        <option value="python">Python</option>
+      </select>
+    </div>
+
+    <div>
+      <label>genero</label>
+      <select name="genero">
+        <option value="masculino">masculino</option>
+        <option value="femenino">femenino</option>
+        <option value="otros">otros</option>
+      </select>
+    </div>
+
+    <div>
+      <p>Rango de edad:</p>
+      <input type="radio" name="rango_edad" id="menor" value="17-20">
+      <label for="menor">17-20</label>
+      <br>
+      <input type="radio" name="rango_edad" id="mayor" value="17-65">
+      <label for="mayor">17-65</label>
+    </div>
+
+    <div>
+      <p>Tipo de vehículo:</p>
+      <input type="checkbox" name="vehiculo" id="deportivo" value="deportivo">
+      <label for="deportivo">Deportivo</label>
+      <br>
+      <input type="checkbox" name="vehiculo" id="sedan" value="sedan">
+      <label for="sedan">Sedán</label>
+    </div>
+
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+
 </body>
-
 </html>

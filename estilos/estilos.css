@@ -1,0 +1,34 @@
+/* Estilos Universales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del body
+RGB: combinación de colores primarios
+R (rojo), G (verde), B (azul)
+Rango: 0 - 255 */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #929697;
+    padding: 20px;
+}
+
+/* Estilos del título */
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 6, 82);
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 1cm;
+    width: 50%;
+}
+div{
+    background-color: blueviolet;
+    width: 50%;
+    margin: 0%;
+
+}
